@@ -1,0 +1,84 @@
+   .header .contact {
+    margin-left: auto;
+    }
+    .contact {
+    list-style-type: none;
+    }
+
+    .hero {
+    background-color:rgba(47, 48, 58, 0.4);
+    background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ), 
+    url('../images/background.jpg');
+    object-fit: contain;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-size: cover;
+    }
+    
+    .hero .container {
+    max-width: 1200px;
+    align-items: center;
+    }
+
+    .hero__header {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--light);
+    padding-bottom: 30px;
+    margin: auto;
+    }
+
+    .navigation__list {
+    display: flex;
+    align-items: center;
+    }
+    /* teraz przyciski "Agencja/Portfolio/Kontakt" 
+       są w jednym wierszu */
+
+    .navigation__item:not(:last-child) {
+    padding-right: 45px;
+    }
+    
+    .navigation__link {
+    position:relative;
+    text-decoration: none;    
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--background-color);
+    cursor: pointer;
+    }
+
+    .navigation__link.current {
+    color: var(--accent);
+    }
+    
+    .navigation__link:hover,
+    .navigation__link:focus {
+    color: var(--accent);
+    transition-property: background-color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    color: var(--accent);
+    }
+    
+    .navigation__link.current::after {
+    content:"";
+    display: block;
+    width: 53px;
+    height: 4px;
+    background-color: var(--accent);
+    position: absolute;
+    top:45px;
+    border-radius: 2px;
+    left:2px;
+    }

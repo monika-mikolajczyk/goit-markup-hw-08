@@ -1,0 +1,77 @@
+    .footer-things {
+    background-color: var(--footer-color);
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    }
+
+    .logo--light {
+    color: var(--light);
+    }
+    
+    .place {
+    text-decoration: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    height: 21px;
+    display: inline-block;
+    margin-bottom: 9px;
+    letter-spacing: 0.03em;
+    color: var(--light);
+    &:active {
+    text-decoration: underline;   
+    }
+    }
+    
+    .mail {
+    text-decoration: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    height: 21px;
+    display: inline-block;
+    margin-bottom: 9px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);   
+    }
+    .mail:active {
+    text-decoration: underline;    
+    }
+    
+    .telefon {
+    text-decoration: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    height: 21px;
+    display: inline-block;
+    letter-spacing: 0.02em;
+    color: var(--detail-color);
+    &:active {
+    text-decoration: underline;     
+    }
+    }
+
+    .adress-footer {
+    padding-top: 20px;
+    }
+
+    .two-side {
+    display: flex;
+    align-items: baseline;
+    }
+
+    .left-side {
+    display: block;
+    }
+
+    .right-side {
+    margin-left: 70px;
+    }

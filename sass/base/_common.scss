@@ -1,0 +1,64 @@
+  :root {
+  --main-font: font-family "Roboto", sans-serif;
+  --light: #fff;
+  --dark: #000;
+  --accent: #2196f3;
+  --background-color: #212121;
+  --footer-color: #2F303A;
+  --detail-color: #757575;
+  --primary: #afb1b8;
+  --light-color: #F5F4FA;
+  --border-color: #EEEEEE;
+  --overlay-color: rgba(33, 150, 243, 0.9);
+  }
+  
+  h1,
+  h2,
+  h3 {
+  margin: 0;
+  padding: 0;
+  }
+  
+  ul,
+  li {
+  margin: 0; 
+  padding: 0;   
+  }
+  /* dałam oprócz "list-style: none;" to co powyżej,
+   bo Alex powiedział na zajęciach praktycznych,
+   że lepiej dawać właśnie po przecinku, w razie
+   gdybyśmy chcieli jednak jakąś listę numerować
+   czy wypunktować */
+  
+  ul,
+  li {
+  list-style: none;    
+  }
+  
+  p {
+  padding: 0; 
+  margin: 0;   
+  }
+  
+  img {
+  display: block;
+  }
+
+  .list {
+  list-style: none;
+  }
+  
+  .link {
+  text-decoration: none;
+  }
+
+  .secondary-header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--background-color);
+  }
