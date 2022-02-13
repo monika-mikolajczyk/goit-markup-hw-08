@@ -571,6 +571,10 @@ border-bottom: 1px solid #ececec;
   margin: auto;
 }
 
+.navigation {
+background-image: url(../images/bars-solid.svg);
+}
+
 .navigation__list {
   display: flex;
   align-items: center;
