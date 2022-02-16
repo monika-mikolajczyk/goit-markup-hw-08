@@ -93,6 +93,7 @@ img {
   width: 480px;
   align-items: center;
   margin: 0 auto;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 768px) {
