@@ -9,6 +9,14 @@
     margin-bottom: 94px;
     }
 
+    @media screen and (max-width: 480px) {
+        .our-services__item {
+            width: 370px;
+            align-items: center;
+        }
+    }
+
+
     .our-services__text {
     padding: 27px 0;
     width: 100%;

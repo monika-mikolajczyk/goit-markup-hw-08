@@ -90,25 +90,23 @@ img {
 }
 
 .container {
-  width: 480px;
-  align-items: center;
-  margin: 0 auto;
-  flex-direction: column;
+  width: 100%;
+  padding: 0 15px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 480px) {
   .container {
-    width: 768px;
-    align-items: center;
-    margin: 0 auto;
+    max-width: 480px;
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .container {
-    width: 1200px;
-    align-items: center;
-    margin: 0 auto;
+.mobile-column {
+  display: flex;
+}
+
+@media screen and (max-width: 480px) {
+  .mobile-column {
+    flex-direction: column;
   }
 }
 
@@ -636,6 +634,13 @@ border-bottom: 1px solid #ececec;
   margin-bottom: 94px;
 }
 
+@media screen and (max-width: 480px) {
+  .our-services__item {
+    width: 370px;
+    align-items: center;
+  }
+}
+
 .our-services__text {
   padding: 27px 0;
   width: 100%;
@@ -666,6 +671,16 @@ border-bottom: 1px solid #ececec;
   height: 120px;
   background: var(--light-color);
   border-radius: 4px;
+}
+
+@media screen and (max-width: 480px) {
+  .why-us-card__icon-background {
+    width: 450px;
+    height: 120px;
+  }
+  .why-us-card__name {
+    text-align: center;
+  }
 }
 
 .why-us-card__icon {

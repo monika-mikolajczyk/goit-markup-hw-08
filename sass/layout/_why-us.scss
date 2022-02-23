@@ -17,6 +17,16 @@
     border-radius: 4px;
     }
 
+@media screen and (max-width: 480px) {
+    .why-us-card__icon-background {
+        width: 450px;
+        height: 120px;
+    }
+    .why-us-card__name {
+        text-align: center;
+    }
+}
+
     .why-us-card__icon {
     display: flex;  
     display: block;
