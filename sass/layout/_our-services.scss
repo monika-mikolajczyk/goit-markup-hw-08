@@ -4,13 +4,17 @@
     }
         
     .our-services__item {
-    align-items: center;
-    width: 370px;
+    position: relative;
     margin-top: 50px;
     margin-bottom: 94px;
     }
 
-
+    @media screen and (max-width: 480px) {
+        .our-services__item {
+            width: 370px;
+            align-items: center;
+        }
+    }
 
 
     .our-services__text {
