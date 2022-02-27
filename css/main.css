@@ -90,14 +90,8 @@ img {
 }
 
 .container {
-  width: 100%;
+  max-width: 480px;
   padding: 0 15px;
-}
-
-@media screen and (max-width: 480px) {
-  .container {
-    max-width: 480px;
-  }
 }
 
 .mobile-column {
@@ -556,7 +550,7 @@ border-bottom: 1px solid #ececec;
 }
 
 .hero .container {
-  max-width: 1200px;
+  max-width: 480px;
   align-items: center;
 }
 
@@ -629,16 +623,10 @@ border-bottom: 1px solid #ececec;
 }
 
 .our-services__item {
-  position: relative;
+  align-items: center;
+  width: 370px;
   margin-top: 50px;
   margin-bottom: 94px;
-}
-
-@media screen and (max-width: 480px) {
-  .our-services__item {
-    width: 370px;
-    align-items: center;
-  }
 }
 
 .our-services__text {
@@ -847,6 +835,12 @@ border-bottom: 1px solid #ececec;
 
 .icon-phone {
   margin-right: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .footer-things {
+    max-width: 480px;
+  }
 }
 
 .footer-things {

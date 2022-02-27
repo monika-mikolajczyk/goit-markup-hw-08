@@ -1,3 +1,10 @@
+    @media screen and (max-width: 480px) {
+    .footer-things {
+        max-width : 480px;
+    }
+}
+    
+    
     .footer-things {
     background-color: var(--footer-color);
     display: flex;

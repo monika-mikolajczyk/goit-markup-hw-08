@@ -1,12 +1,6 @@
 .container {
-    width: 100%;
+    max-width: 480px;
     padding: 0 15px;
-}
-
-@media screen and (max-width: 480px) {
-    .container {
-        max-width : 480px;
-    }
 }
 
 .mobile-column {
